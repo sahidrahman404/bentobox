@@ -9,6 +9,7 @@
     and set margin left and right to auto*/
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
