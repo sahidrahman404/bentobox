@@ -138,3 +138,8 @@ body {
 .h-margin-right--sm {
   margin-right: 1.6rem;
 }
+
+/* LOGO */
+.logo-img {
+  height: 2.4rem;
+}
