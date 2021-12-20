@@ -12,8 +12,10 @@
 
   /* - Line heights: */
   --line-height-default: 1;
+  --line-height-small: 1.05;
 
   /* - Letter spacing: */
+  --letter-spacing-1 : -0.5px;
 
   /* --- 02 COLORS --- */
   --color-main: #929f5d;
