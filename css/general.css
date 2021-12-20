@@ -35,13 +35,22 @@
 *,
 *::before,
 *::after {
-/* global reset */
+  /*Global reset */
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
 
 html{
-/* global reset */
+  /*Set html font size to a relative unit*/
+  /*For easy calculation I set 1rem to be equal
+  to 10px*/
+  /*The default font size in browsers is 16px.
+    If users have their own font size setting, 
+    our webpage should follow that setting. 
+    So we should use percentage instead of px to set html font size.
+  */
+  font-size: 62.5%; /* 10px / 16px = 0.625 = 62.5% */ 
+  /*Global reset */
   box-sizing: border-box;
 }
