@@ -1,0 +1,33 @@
+:root {
+  /* --- 01 TYPOGRAPHY --- */
+  /* - Font sizes system (px); 
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 
+/ 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+  /* - Font weights: */
+  --font-weight-default: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  /* - Line heights: */
+  --line-height-default: 1;
+
+  /* - Letter spacing: */
+
+  /* --- 02 COLORS --- */
+  --color-main: #929f5d;
+
+  --color-tint-1: #f4f5ef;
+
+  --color-shade-1: #838f54;
+
+  --color-dark-gray-1: #555;
+  /* --- 03 BORDER RADIUS --- */
+
+  /* --- 04 WHITESPACE --- */
+
+  /* - Spacing system (px); 
+ 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64  
+ / 80 / 96 / 128 */
+}
