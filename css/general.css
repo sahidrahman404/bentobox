@@ -64,3 +64,18 @@ body{
   line-height: var(--line-height-default);
   color: var(--color-dark-gray-1);
 }
+
+/* HEADING */
+.heading-primary{
+  /*For a headline use bold font weight (600+)*/
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-1);
+  color: var(--color-dark-gray-2);
+}
+
+.heading-primary{
+  /*For a headline use big font size (50px+)*/
+  font-size: 5.2rem;
+  line-height: var(--line-height-small);
+  margin-bottom: 3.2rem;
+}
