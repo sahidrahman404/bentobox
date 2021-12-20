@@ -32,4 +32,7 @@
 }
 
 .hero__img {
+  /*to occupy the entire grid cell,
+    set the image width to 100%*/
+  width: 100%;
 }
