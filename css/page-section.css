@@ -20,6 +20,9 @@
 }
 
 .hero__description {
+  font-size: 2rem;
+  line-height: var(--line-height-paragraph);
+  margin-bottom: 4.8rem;
 }
 
 .delivered-meals {
