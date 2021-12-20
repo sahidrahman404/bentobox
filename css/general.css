@@ -54,3 +54,10 @@ html{
   /*Global reset */
   box-sizing: border-box;
 }
+
+body{
+  font-family: "Rubik", sans-serif;
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-default);
+  color: var(--color-dark-gray-1);
+}
