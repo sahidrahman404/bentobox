@@ -189,3 +189,141 @@
   transform: translate(-50%, -50%);
   z-index: 100;
 }
+
+/* MEALS SECTION */
+.section-meals {
+  padding: 2.4rem 0 9.6rem 0;
+}
+
+.section-meals__card {
+  overflow: hidden;
+  border-radius: var(--border-medium);
+  box-shadow: var(--box-shadow-huge);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.section-meals__card:hover {
+  transform: translateY(-1rem);
+  box-shadow: var(--box-shadow-small);
+}
+
+.section-meals__img-box {
+  overflow: hidden;
+}
+
+.section-meals__img {
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.section-meals__img:hover {
+  transform: scale(1.1);
+}
+
+.section-meals__text-box {
+  padding: 2.4rem 4.8rem 8rem 4.8rem;
+}
+
+.section-meals__tags {
+  display: flex;
+  gap: 1.2rem;
+  text-transform: uppercase;
+  color: var(--color-dark-gray-3);
+  font-weight: var(--font-weight-medium);
+  font-size: 1.2rem;
+}
+
+.section-meals__tag {
+  display: inline-block;
+  border-radius: var(--border-default);
+  padding: 0.2rem 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.section-meals__tag--carnivore {
+  background-color: var(--color-accent-2); /*testing*/
+}
+
+.section-meals__tag--omnivore {
+  background-color: var(--color-accent-1); /*testing*/
+}
+
+.section-meals__tag--paleo {
+  background-color: var(--color-accent-3); /*testing*/
+}
+
+.section-meals__menu {
+  font-size: 2.4rem;
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--color-dark-gray-2);
+  margin-bottom: 2.4rem;
+}
+
+.section-meals__nutritional-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.8rem;
+  font-size: 1.8rem;
+}
+
+.section-meals__nutritional-value {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.section-meals__icon {
+  font-size: 2.4rem;
+  color: var(--color-main);
+}
+
+.section-meals__nutritional-value span {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.section-meals__title {
+  font-size: 3rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-dark-gray-2);
+  margin-bottom: 3.2rem;
+}
+
+.section-meals__diet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.section-meals__diet {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  cursor: pointer;
+}
+
+.section-meals__check-icon {
+  font-size: 3rem;
+  color: var(--color-main);
+}
+
+.section-meals__btn:link,
+.section-meals__btn:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-family: inherit;
+  text-decoration: none;
+  color: var(--color-main);
+  margin-top: 6.4rem;
+  border-bottom: 0.1rem solid currentColor;
+  padding-bottom: 0.6rem;
+  transition: all 0.3s;
+}
+
+.section-meals__btn:hover,
+.section-meals__btn:active {
+  border-bottom: 0.1rem solid transparent;
+}
