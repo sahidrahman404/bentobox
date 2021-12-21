@@ -197,7 +197,10 @@ body {
 /* GRID */
 .grid {
   display: grid;
-  column-gap: 6.4;
+  column-gap: 6.4rem;
+}
+
+.grid:not(:last-child) {
   row-gap: 9.6rem;
 }
 
