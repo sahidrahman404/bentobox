@@ -178,6 +178,10 @@ body {
   margin-right: 1.6rem;
 }
 
+.h-text-center {
+  text-align: center;
+}
+
 /* LOGO */
 .logo-img {
   height: 2.4rem;
