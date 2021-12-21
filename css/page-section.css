@@ -164,7 +164,7 @@
 
 .section-how__img-box::before {
   display: block;
-  content: "";
+  content: '';
   width: 65%;
   padding-bottom: 65%;
   border-radius: 50%;
@@ -172,13 +172,13 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 10;
 }
 
 .section-how__img-box::after {
   display: block;
-  content: "";
+  content: '';
   width: 50%;
   padding-bottom: 50%;
   border-radius: 50%;
@@ -186,6 +186,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 100;
 }
