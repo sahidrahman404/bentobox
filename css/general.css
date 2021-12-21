@@ -82,7 +82,9 @@ body {
 }
 
 /* HEADING */
-.heading-primary {
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
   /*For a headline use bold font weight (600+)*/
   font-weight: var(--font-weight-bold);
   letter-spacing: var(--letter-spacing-1);
@@ -94,6 +96,29 @@ body {
   font-size: 5.2rem;
   line-height: var(--line-height-small);
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: var(--line-height-medium);
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: var(--line-height-medium);
+  margin-bottom: 2.4rem;
+}
+
+/* SUBHEADING */
+.sub-heading {
+  display: block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-2);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-shade-1);
+  margin-bottom: 2.4rem;
 }
 
 /* BUTTON */
