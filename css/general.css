@@ -182,3 +182,18 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
+
+/* GRID */
+.grid {
+  display: grid;
+  column-gap: 6.4;
+  row-gap: 9.6rem;
+}
+
+.grid-center--v {
+  align-items: center;
+}
+
+.grid-col--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
