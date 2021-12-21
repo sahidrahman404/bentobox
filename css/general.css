@@ -13,15 +13,18 @@
   /* - Line heights: */
   --line-height-default: 1;
   --line-height-small: 1.05;
+  --line-height-medium: 1.2;
   --line-height-paragraph: 1.6;
 
   /* - Letter spacing: */
   --letter-spacing-1: -0.5px;
+  --letter-spacing-2: 0.75 px;
 
   /* --- 02 COLORS --- */
   --color-main: #929f5d;
 
   --color-tint-1: #f4f5ef;
+  --color-tint-2: #e9ecdf;
 
   --color-shade-1: #838f54;
 
@@ -31,6 +34,8 @@
   --color-dark-gray-2: #333;
 
   --color-white: #fff;
+
+  --color-de-emphasize: #ddd;
   /* --- 03 BORDER RADIUS --- */
   --border-default: 9px;
 
