@@ -32,12 +32,18 @@
 
   --color-dark-gray-1: #555;
   --color-dark-gray-2: #333;
+  --color-dark-gray-3: #111;
 
   --color-white: #fff;
 
   --color-de-emphasize: #ddd;
+
+  --color-accent-1: #f6ac8c;
+  --color-accent-2: #e4b302;
+  --color-accent-3: #b4b881;
   /* --- 03 BORDER RADIUS --- */
   --border-default: 9px;
+  --border-medium: 11px;
 
   /* --- 04 WHITESPACE --- */
 
@@ -48,7 +54,8 @@
   /* --- 05 BOX-SHADOW --- */
 
   --box-shadow-small: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.1);
-  --box-shadow--big: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
+  --box-shadow-big: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
+  --box-shadow-huge: 0 4.8rem 8rem rgb(0, 0, 0, 0.1);
 }
 
 *,
