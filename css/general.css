@@ -222,6 +222,10 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-col--4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* OVERRIDE DEFAULT CSS STYLE */
 strong{
   font-weight: var(--font-weight-medium);
