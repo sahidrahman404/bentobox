@@ -217,3 +217,8 @@ body {
 .grid-col--3 {
   grid-template-columns: repeat(3, 1fr);
 }
+
+/* OVERRIDE DEFAULT CSS STYLE */
+strong{
+  font-weight: var(--font-weight-medium);
+}
