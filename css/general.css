@@ -37,6 +37,7 @@
 
   --color-light-gray-1: #777;
   --color-light-gray-2: #6f6f6f; /* (lightest gray allowed on --color-tint-2) */
+  --color-light-gray-3: #767676; /* (lightest gray allowed on --color-white) */
 
   --color-dark-gray-1: #555;
   --color-dark-gray-2: #333;
@@ -45,6 +46,7 @@
   --color-white: #fff;
 
   --color-de-emphasize: #ddd;
+  --color-de-emphasize-2: #eee;
 
   --color-accent-1: #f6ac8c;
   --color-accent-2: #e4b302;
