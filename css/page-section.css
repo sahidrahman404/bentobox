@@ -555,6 +555,10 @@
   line-height: var(--line-height-paragraph);
 }
 
+.price__calculation span {
+  font-size: 1.4rem;
+}
+
 .pricing__list {
   display: flex;
   flex-direction: column;
