@@ -488,6 +488,7 @@
 .pricing {
   border-radius: var(--border-medium);
   justify-self: start;
+  width: 90%;
 }
 
 .pricing--starter {
