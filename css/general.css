@@ -22,9 +22,11 @@
 
   /* --- 02 COLORS --- */
   --color-main: #929f5d;
+  --color-main-rgb: 146, 159, 93;
 
   --color-tint-1: #f4f5ef;
   --color-tint-2: #e9ecdf;
+  --color-tint-2-rgb: 233, 236, 223;
   --color-tint-3: #a8b27d;
   --color-tint-3-rgb: 168, 178, 125;
   --color-tint-4: #dee2ce;
