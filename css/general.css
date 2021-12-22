@@ -183,6 +183,10 @@ body {
   text-align: center;
 }
 
+.h-margin-bottom--md{
+  margin-bottom: 4.8rem !important;
+}
+
 /* LOGO */
 .logo-img {
   height: 2.4rem;
