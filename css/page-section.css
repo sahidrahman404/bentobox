@@ -696,10 +696,6 @@
   border-radius: var(--border-default);
   border: none;
   height: 4.8rem;
-}
-
-.cta__input,
-.cta__select {
   background-color: var(--color-tint-1);
   font: inherit;
   font-weight: var(--font-weight-default);
