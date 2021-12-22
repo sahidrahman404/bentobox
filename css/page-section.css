@@ -489,6 +489,8 @@
   border-radius: var(--border-medium);
   justify-self: start;
   width: 90%;
+  padding: 4.8rem;
+  text-align: center;
 }
 
 .pricing--starter {
@@ -516,11 +518,6 @@
   top: 7%;
   right: -10%;
   transform: rotate(45deg);
-}
-
-.pricing__card {
-  padding: 4.8rem;
-  text-align: center;
 }
 
 .pricing__header {
