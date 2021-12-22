@@ -203,6 +203,10 @@ body {
   color: var(--color-dark-gray-1);
 }
 
+.btn--form:focus {
+  box-shadow: 0 0 0 0.8rem rgba(var(--color-tint-2-rgb), 0.5);
+}
+
 /* HELPER */
 .h-margin-right--sm {
   margin-right: 1.6rem !important;
@@ -258,4 +262,10 @@ body {
 /* OVERRIDE DEFAULT CSS STYLE */
 strong{
   font-weight: var(--font-weight-medium);
+}
+
+/* FOCUS STATE */
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(var(--color-main-rgb), 0.5);
 }

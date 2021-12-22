@@ -701,3 +701,8 @@
   font-weight: var(--font-weight-default);
   padding-left: 0.9rem;
 }
+
+.cta__input:focus,
+.cta__select:focus {
+  box-shadow: 0 0 0 0.8rem rgba(var(--color-tint-2-rgb), 0.5);
+}
