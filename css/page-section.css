@@ -478,3 +478,117 @@
 .gallery-item__img:hover {
   transform: scale(1.1);
 }
+
+/* PRICING SECTION */
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing {
+  border-radius: var(--border-medium);
+  justify-self: start;
+}
+
+.pricing--starter {
+  justify-self: end;
+  box-shadow: inset 0 0 0 0.3rem var(--color-tint-2);
+}
+
+.pricing--complete {
+  background-color: var(--color-tint-1);
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing--complete::after {
+  display: block;
+  content: 'rip-off';
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+
+  padding: 0.8rem 6.4rem;
+  color: var(--color-dark-gray-3);
+  background-color: var(--color-accent-2);
+  position: absolute;
+  top: 7%;
+  right: -10%;
+  transform: rotate(45deg);
+}
+
+.pricing__card {
+  padding: 4.8rem;
+  text-align: center;
+}
+
+.pricing__header {
+  text-align: center;
+}
+
+.pricing__plan {
+  color: var(--color-shade-1);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-semi-bold);
+  font-size: 2rem;
+  letter-spacing: var(--letter-spacing-2);
+  margin-bottom: 2.4rem;
+}
+
+.plan__price {
+  color: var(--color-dark-gray-2);
+  font-weight: var(--font-weight-bold);
+}
+
+.price__sign {
+  font-size: 2.4rem;
+}
+
+.price__number {
+  font-size: 4.4rem;
+}
+
+.price__calculation {
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  margin-bottom: 3.2rem;
+  line-height: var(--line-height-paragraph);
+}
+
+.pricing__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 1.8rem;
+  list-style: none;
+  margin-bottom: 4.8rem;
+}
+
+.pricing__description {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  line-height: var(--line-height-paragraph);
+}
+
+.pricing__check-icon {
+  font-size: 3rem;
+  color: var(--color-shade-1);
+}
+
+.pricing__button:link,
+.pricing__button:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--color-white);
+  background-color: var(--color-main);
+  padding: 1.2rem 2.4rem;
+  border-radius: var(--border-default);
+  cursor: pointer;
+}
+
+.pricing__button:hover,
+.pricing__button:active {
+  background-color: var(--color-shade-1);
+}
