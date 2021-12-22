@@ -631,3 +631,79 @@
   font-size: 1.6rem;
   line-height: var(--line-height-paragraph);
 }
+
+/* CTA SECTION */
+.section-cta {
+  padding: 2.4rem 0 9.6rem 0;
+}
+
+.cta__box {
+  display: grid;
+  padding: 0;
+  grid-template-columns: 2fr 1fr;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-tint-3),
+    var(--color-main)
+  );
+  border-radius: var(--border-medium);
+  box-shadow: var(--box-shadow-enormous);
+  overflow: hidden;
+}
+
+.cta__img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(var(--color-tint-3-rgb), 0.4),
+      rgba(var(--color-tint-4-rgb), 0.3)
+    ),
+    url('../img/bentobox-eating.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cta__text {
+  padding: 4.8rem 6.4rem;
+  color: var(--color-shade-2);
+}
+
+.cta__text .heading-secondary {
+  margin-bottom: 3.2rem;
+}
+
+.cta__description {
+  font-size: 1.8rem;
+  font-weight: var(--border-medium);
+  line-height: var(--line-height-paragraph);
+  margin-bottom: 3.2rem;
+}
+
+.cta__form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta__wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  font-weight: var(--font-weight-medium);
+  gap: 1.2rem;
+}
+
+.cta__input,
+.cta__select {
+  border-radius: var(--border-default);
+  border: none;
+  height: 4.8rem;
+}
+
+.cta__input,
+.cta__select {
+  background-color: var(--color-tint-1);
+  font: inherit;
+  font-weight: var(--font-weight-default);
+  padding-left: 0.9rem;
+}
