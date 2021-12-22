@@ -176,11 +176,11 @@ body {
 
 /* HELPER */
 .h-margin-right--sm {
-  margin-right: 1.6rem;
+  margin-right: 1.6rem !important;
 }
 
 .h-text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .h-margin-bottom--md{
