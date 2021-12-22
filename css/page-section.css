@@ -596,3 +596,38 @@
 .pricing__button:active {
   background-color: var(--color-shade-1);
 }
+
+.pricing__info {
+  font-size: 1.6rem;
+  line-height: var(--line-height-paragraph);
+  margin-bottom: 4.8rem;
+}
+
+.benefit__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: var(--color-tint-1);
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
+}
+
+.benefit__icon {
+  font-size: 3.8rem;
+  color: var(--color-main);
+}
+
+.benefit__title {
+  font-size: 2.4rem;
+  color: var(--color-dark-gray-2);
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: 1.6rem;
+}
+
+.benefit__description {
+  font-size: 1.6rem;
+  line-height: var(--line-height-paragraph);
+}
