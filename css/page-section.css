@@ -706,3 +706,15 @@
 .cta__select:focus {
   box-shadow: 0 0 0 0.8rem rgba(var(--color-tint-2-rgb), 0.5);
 }
+
+.cta__input:focus {
+  border-bottom: 0.4rem solid var(--color-accent-3);
+}
+
+/* use invalid pseudo class to add style to the input form,
+  so if the user type the wrong input, the input form will 
+  show an invalid sign */
+.cta__input:focus:invalid {
+  border-bottom: 0.4rem solid var(--color-accent-4);
+}
+
