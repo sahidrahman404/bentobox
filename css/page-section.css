@@ -655,7 +655,7 @@
       rgba(var(--color-tint-3-rgb), 0.4),
       rgba(var(--color-tint-4-rgb), 0.3)
     ),
-    url('../img/bentobox-eating.jpg');
+    url('../img/min/bentobox-eating.jpg');
   background-size: cover;
   background-position: center;
 }
