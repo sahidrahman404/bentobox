@@ -1,0 +1,13 @@
+/* rem and em don't depend on html font-size 
+in media queries! Instead, 1rem = 1em = 16px*/
+
+/* BEFORE 1344px (Smaller desktops) */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
