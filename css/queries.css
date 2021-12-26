@@ -284,3 +284,18 @@ in media queries! Instead, 1rem = 1em = 16px*/
     padding: 3.2rem;
   }
 }
+
+/* BEFORE 432px (Special for pricing section) */
+@media (max-width: 27em) {
+  .section-featured__logo {
+    height: 1rem;
+  }
+
+  .price__sign {
+    font-size: 2rem;
+  }
+
+  .price__number {
+    font-size: 3.6rem;
+  }
+}
