@@ -140,3 +140,52 @@ in media queries! Instead, 1rem = 1em = 16px*/
     font-size: 2.4rem;
   }
 }
+
+/* BEFORE 704px (Smaller tablets) */
+@media (max-width: 44em) {
+  .section-featured__logo {
+    height: 1.6rem;
+  }
+
+  .heading-secondary {
+    margin-bottom: 3.2rem;
+  }
+
+  .pricing {
+    padding: 2.4rem;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+  }
+
+  .pricing--complete::after {
+    top: 5%;
+    right: -16%;
+  }
+
+  .grid-col--3,
+  .grid-col--4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-meals__diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .footer__grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .footer__account,
+  .footer__company,
+  .footer__resources {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .footer__bentobox,
+  .footer__contacts {
+    grid-column: span 3;
+  }
+}
