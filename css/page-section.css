@@ -572,6 +572,7 @@
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  text-align: start;
   line-height: var(--line-height-paragraph);
 }
 
