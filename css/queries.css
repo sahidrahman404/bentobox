@@ -113,3 +113,30 @@ in media queries! Instead, 1rem = 1em = 16px*/
     font-size: 1rem;
   }
 }
+
+/* BEFORE 880px (Special for pricing section) */
+@media (max-width: 55em) {
+  .section-featured__logo {
+    height: 2.4rem;
+  }
+
+  .pricing {
+    width: 100%;
+  }
+
+  .price__sign {
+    font-size: 2rem;
+  }
+
+  .price__number {
+    font-size: 3.6rem;
+  }
+
+  .pricing__list {
+    font-size: 1.6rem;
+  }
+
+  .pricing__check-icon {
+    font-size: 2.4rem;
+  }
+}
