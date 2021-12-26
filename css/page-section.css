@@ -126,6 +126,7 @@
 .section-featured__logos {
   display: flex;
   justify-content: space-around;
+  gap: 1.6rem;
 }
 
 .section-featured__logo {
