@@ -11,3 +11,29 @@ in media queries! Instead, 1rem = 1em = 16px*/
     font-size: 4.4rem;
   }
 }
+
+/* BEFORE 1200px (Landscape tablets) */
+@media (max-width: 75em) {
+  html {
+    /* decrease font 1px from the "default state" */
+    /* 9px / 16px = 56.25% */
+    font-size: 56.25%;
+  }
+
+  .header {
+    padding: 0 3.2rem 0 3.2rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+}
