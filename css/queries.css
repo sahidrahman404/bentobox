@@ -299,3 +299,32 @@ in media queries! Instead, 1rem = 1em = 16px*/
     font-size: 3.6rem;
   }
 }
+
+/* BEFORE 336px (Smaller Phones) */
+@media (max-width: 21em) {
+  .btn--full {
+    margin-right: 0 !important;
+    margin-bottom: 1.6rem !important;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .delivered-meals__text {
+    font-size: 1.6rem;
+  }
+
+  .pricing--complete::after {
+    top: 5%;
+    right: -13%;
+  }
+
+  .price__sign {
+    font-size: 1.8rem;
+  }
+
+  .price__number {
+    font-size: 3rem;
+  }
+}
