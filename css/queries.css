@@ -102,3 +102,14 @@ in media queries! Instead, 1rem = 1em = 16px*/
     margin-top: 1.2rem;
   }
 }
+
+/* BEFORE 768px (Special for pricing section) */
+@media (max-width: 48em) {
+  .price__calculation {
+    font-size: 1.2rem;
+  }
+
+  .price__calculation span {
+    font-size: 1rem;
+  }
+}
