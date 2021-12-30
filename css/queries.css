@@ -353,8 +353,12 @@ in media queries! Instead, 1rem = 1em = 16px*/
   }
 }
 
-/* BEFORE 432px (Special for pricing section) */
+/* BEFORE 432px (Special for pricing section and hero button) */
 @media (max-width: 27em) {
+  .btn--full {
+    margin-right: 0 !important;
+    margin-bottom: 1.6rem !important;
+  }
   .section-featured__logo {
     height: 1rem;
   }
@@ -370,11 +374,6 @@ in media queries! Instead, 1rem = 1em = 16px*/
 
 /* BEFORE 336px (Smaller Phones) */
 @media (max-width: 21em) {
-  .btn--full {
-    margin-right: 0 !important;
-    margin-bottom: 1.6rem !important;
-  }
-
   .heading-primary {
     font-size: 3.6rem;
   }
