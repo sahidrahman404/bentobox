@@ -99,6 +99,8 @@ body {
   font-weight: var(--font-weight-default);
   line-height: var(--line-height-default);
   color: var(--color-dark-gray-1);
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
 
