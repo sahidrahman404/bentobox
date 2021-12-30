@@ -206,15 +206,14 @@ in media queries! Instead, 1rem = 1em = 16px*/
     padding: 2.4rem 1.6rem;
   }
 
+  .pricing--complete::after {
+    top: 7%;
+    right: -9%;
+  }
   /******************************/
   /* Styling the pricing section to the "original state"*/
   .pricing {
     padding: 4.8rem;
-  }
-
-  .pricing--complete::after {
-    top: 7%;
-    right: -10%;
   }
 
   .price__calculation {
