@@ -47,6 +47,13 @@
   transform: translateY(-0.1rem);
   box-shadow: var(--box-shadow-small);
 }
+
+/* Mobile Navigation */
+.nav__mobile {
+  display: none;
+  font-size: 4.4rem;
+}
+
 /* HERO SECTION */
 .section-hero {
   padding: 4.8rem 0 9.6rem 0;

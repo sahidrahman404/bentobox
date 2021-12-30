@@ -101,6 +101,75 @@ in media queries! Instead, 1rem = 1em = 16px*/
   .btn--form {
     margin-top: 1.2rem;
   }
+
+  /* MOBILE NAVIGATION  */
+
+  /* CLOSE STATE*/
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-white);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in;
+    /* to hide an element don't use the display property and set it to none. */
+    /*   because this property doesn't allow transition */
+    /* display: none; */
+
+    /* instead follow the insturction below. */
+    /*   so you can hide an element and give transition effect to the element */
+
+    /* 1. Hide it visually */
+    opacity: 0;
+
+    /* 2. Hide it from mouse and keyboard */
+    pointer-events: none;
+
+    /* 3. Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav__mobile {
+    display: block;
+  }
+
+  .nav__mobile ion-icon[name='close-outline'] {
+    display: none;
+  }
+
+  /* OPEN STATE */
+
+  .nav__open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav__open .nav__mobile ion-icon[name='menu-outline'] {
+    display: none;
+  }
+
+  .nav__open .nav__mobile ion-icon[name='close-outline'] {
+    display: block;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 3rem;
+  }
 }
 
 /* BEFORE 880px (Special for pricing section) */
