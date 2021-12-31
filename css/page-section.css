@@ -55,6 +55,23 @@
   font-size: 4.4rem;
 }
 
+/* Sticky Navigation */
+.sticky .header{
+  position: fixed;
+  /*use fix height for sticky navigation*/
+  height: 8rem;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow-big);
+  z-index: 10000000;
+}
+
+.sticky .section-hero{
+  margin-top: 9.6rem;
+}
+
 /* HERO SECTION */
 .section-hero {
   padding: 4.8rem 0 9.6rem 0;
