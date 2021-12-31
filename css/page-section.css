@@ -65,7 +65,7 @@
   width: 100%;
   background-color: var(--color-white);
   box-shadow: var(--box-shadow-big);
-  z-index: 10000000;
+  z-index: 10000;
 }
 
 .sticky .section-hero{
