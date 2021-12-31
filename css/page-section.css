@@ -405,6 +405,7 @@
 
 .testimonial-box__description {
   font-size: 1.8rem;
+  line-height: var(--line-height-paragraph);
 }
 
 .testimonial-box__name {
